@@ -1,0 +1,636 @@
+/*vision pro section */
+.main-sec-a {
+  padding-top: 44px;
+}
+.animation-vidio-wrap {
+  position: relative;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.visionPro-back-video-link {
+  z-index: -1;
+}
+.visionPro-animation-video {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: cover;
+  object-position: center;
+}
+.overlay-content-wrap {
+  height: auto;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  margin-bottom: 12px;
+}
+.visionPro-link-top,
+.visionPro-subhead-top,
+.visionPro-img-top-wrap {
+  font-family: " SF Pro Display", Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: #ffff;
+  font-size: 28px;
+  font-weight: 400;
+  display: block;
+}
+.btn-visionPro-top-wrap {
+  display: block;
+  margin-top: 19px;
+}
+.btn-learn-more-visionPro-top,
+.btn-buy-visionPro-top {
+  font-size: 17px;
+  color: black;
+  border: 1px solid white;
+  background-color: #fff;
+  text-decoration: none;
+  min-width: 28px;
+  padding: 7px 21px;
+  border-radius: 50px;
+  opacity: 0.8;
+  transition: 0.25s ease-in-out;
+}
+.btn-buy-visionPro-top {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+  margin-left: 13px;
+}
+.btn-learn-more-visionPro-top:hover {
+  opacity: 1;
+}
+.btn-buy-visionPro-top:hover {
+  background-color: #fff;
+  color: black;
+  border-color: transparent;
+}
+/* vision pro section end  */
+
+/* section b iPhone 15 css  */
+.main-sec-b {
+  position: relative;
+}
+.iphone-15pro-link {
+  text-decoration: none;
+  text-align: center;
+  color: #ffff;
+}
+.iphone-15pro-promo-wrap {
+  background-image: url(../image/home/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+}
+@media (max-width: 768px) {
+  .iphone-15pro-promo-wrap {
+    background-image: url(../image/home/promo_iphone15pro__for\ mobile.jpg);
+  }
+}
+.iphone-15pro-promo-wrap {
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+}
+.iphone-15pro-promo-unitwrap {
+  padding-top: 47px;
+}
+.iphone-15pro-promo-unitwrap h2 {
+  font-size: 56px;
+  font-weight: 600;
+}
+.iphone-15pro-promo-unitwrap p {
+  font-size: 28px;
+  margin-top: 6px;
+}
+.iphone-15pro-btn-wrap {
+  margin-top: 19px;
+  text-align: center;
+}
+.btn-learn-more-i15pro,
+.btn-buy-i15pro {
+  min-width: 30px;
+  border-radius: 980px;
+  border: solid 1px rgb(0, 119, 237);
+  transition: 0.25s ease-in-out;
+  opacity: 0.8;
+  z-index: 0;
+  cursor: pointer;
+  padding: 8px 21px;
+  font-size: 17px;
+  background-color: #0071e3;
+  color: #fff;
+}
+.btn-buy-i15pro {
+  background-color: transparent;
+  border-color: rgb(0, 119, 237);
+  color: rgb(0, 119, 237);
+  margin-left: 13px;
+}
+.btn-learn-more-i15pro:hover {
+  opacity: 1;
+}
+.btn-buy-i15pro:hover {
+  background-color: #06c;
+  color: #fff;
+}
+
+/* section c iphone-15 css */
+
+.iphone-15-link {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+.iphone-15-promo-wrap {
+  background-image: url(../image/home/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+}
+.iphone-15-promo-wrap {
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+}
+.iphone-15-promo-unitwrap {
+  padding-top: 47px;
+}
+.iphone-15-promo-unitwrap h2 {
+  font-size: 56px;
+  font-weight: 600;
+}
+.iphone-15pro-promo-unitwrap h2 {
+  color: #fff;
+}
+.iphone-15-promo-unitwrap p {
+  font-size: 28px;
+  margin-top: 6px;
+}
+.iphone-15-btn-wrap {
+  margin-top: 19px;
+  text-align: center;
+}
+.btn-learn-more-i15,
+.btn-buy-i15 {
+  min-width: 30px;
+  border-radius: 980px;
+  border: solid 1px rgb(0, 119, 237);
+  transition: 0.25s ease-in-out;
+  opacity: 0.8;
+  z-index: 0;
+  cursor: pointer;
+  padding: 8px 21px;
+  font-size: 17px;
+  background-color: #0071e3;
+  color: #fff;
+}
+.btn-buy-i15 {
+  background-color: transparent;
+  margin-left: 13px;
+  color: rgb(0, 119, 237);
+}
+.btn-learn-more-i15:hover {
+  opacity: 1;
+}
+.btn-buy-i15:hover {
+  background-color: #06c;
+  color: #fff;
+}
+/* section c iphone-15 css end */
+/* section d apple dev-conference and macBook air css starts */
+.dev-conf-img-wrap {
+  background-image: url(../image/home/promo_wwdc24_announce__fv0p5miwnjiq_large.jpg);
+}
+.m-bookair-img-wrap {
+  background-image: url(../image/home/hero_macbook_air_m3__cp4t7pn8zqaa_large.jpg);
+}
+
+.btn-learn-more-dev-conf,
+.btn-learn-more-m-bookair,
+.btn-buy-m-bookair {
+  min-width: 30px;
+  border-radius: 980px;
+  border: solid 1px rgb(0, 119, 237);
+  transition: 0.25s ease-in-out;
+  opacity: 0.8;
+  z-index: 0;
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0071e3;
+}
+.btn-buy-m-bookair {
+  padding: 8px 18px;
+  color: #0071e3;
+  background-color: transparent;
+  margin-left: 13px;
+}
+.btn-learn-more-dev-conf:hover,
+.btn-learn-more-m-bookair:hover {
+  opacity: 1;
+}
+.btn-buy-m-bookair:hover {
+  background-color: #06c;
+  color: #fff;
+}
+.apple-dev-conf-link,
+.m-bookair-promo-link {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.apple-dev-conf-link {
+  color: #fff;
+}
+
+.dev-conf-img-wrap,
+.m-bookair-img-wrap {
+  height: 580px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+}
+.dev-conf-promo-overlay,
+.m-bookair-promo-overlay {
+  width: 100%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+}
+.dev-conf-promo,
+.m-bookair-promo-head,
+.m-bookair-promo-subhead {
+  margin: 0 auto;
+  display: inline-block;
+}
+.btn-wrap-dev-conf,
+.btn-wrap-visionpro {
+  padding-bottom: 53px;
+}
+.btn-wrap-dev-conf,
+.btn-wrap-m-bookair {
+  position: relative;
+  margin-top: 19px;
+}
+.dev-conf-promo-head,
+.m-bookair-promo-head {
+  margin-top: 53px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.dev-conf-promo-head {
+  position: absolute;
+  top: 0;
+  left: 33%;
+  width: 240px;
+  height: 370;
+}
+.dev-conf-promo-head span {
+  visibility: hidden;
+}
+.dev-conf-promo-subhead,
+.m-bookair-promo-subhead {
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 4px;
+  color: black;
+}
+.dev-conf-promo-overlay {
+  justify-content: end;
+  position: relative;
+}
+.btn-wrap-dev-conf,
+.btn-wrap-m-bookair {
+  margin: 0 auto;
+  display: inline-block;
+}
+.btn-wrap-dev-conf {
+  margin-top: 17px;
+  text-align: center;
+}
+.dev-conf-promo-subhead p {
+  color: #fff;
+}
+
+.btn-learn-more-dev-conf {
+  cursor: pointer;
+}
+/* section d apple dev-conference and macBook air css end */
+/* section e apple watch and iPad css starts */
+.watch-series-img-wrap {
+  background-image: url(../image/home/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg);
+}
+.ipad-img-wrap {
+  background-image: url(../image/home/promo_ipad__fioegapg12qi_large.jpg);
+}
+.btn-learn-more-watch,
+.btn-learn-more-ipad,
+.btn-buy-watch,
+.btn-buy-ipad {
+  min-width: 30px;
+  border-radius: 980px;
+  border: solid 1px rgb(0, 119, 237);
+  transition: 0.25s ease-in-out;
+  opacity: 0.8;
+  z-index: 0;
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0071e3;
+}
+.btn-buy-watch,
+.btn-buy-ipad {
+  background-color: transparent;
+  color: rgb(0, 119, 237);
+  padding: 8px 18px;
+  margin-left: 13px;
+}
+.btn-learn-more-watch:hover,
+.btn-learn-more-ipad:hover {
+  opacity: 1;
+}
+.btn-buy-ipad:hover,
+.btn-buy-watch:hover {
+  background-color: #06c;
+  color: #fff;
+}
+.apple-watch-link,
+.ipad-promo-link {
+  text-align: center;
+  text-decoration: none;
+}
+.apple-watch-link {
+  color: #fff;
+}
+.ipad-promo-link {
+  color: #000;
+}
+.watch-series-img-wrap,
+.ipad-img-wrap {
+  height: 580px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+}
+.watch-promo-overlay,
+.ipad-promo-overlay {
+  width: 100%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+}
+.watch-promo-img,
+.watch-promo-subhead,
+.ipad-promo-head,
+.ipad-promo-subhead {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.btn-wrap-watch,
+.btn-wrap-ipad {
+  margin-top: 17px;
+  text-align: center;
+}
+.watch-promo-img,
+.ipad-promo-head {
+  margin-top: 53px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.watch-promo-subhead,
+.ipad-promo-subhead {
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 4px;
+  color: black;
+}
+
+.watch-promo-subhead p {
+  color: #fff;
+}
+
+/* section e  apple watch and iPad css ends*/
+
+/* section f  AirPods and Vision Pro css starts*/
+.airpods-pro-img-wrap {
+  background-image: url(../image/home/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+}
+
+.visionPro-img-wrap {
+  background-image: url(../image/home/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg);
+}
+.btn-learn-more-airpods,
+.btn-buy-airpods,
+.btn-learn-more-visionpro,
+.btn-buy-visionPro {
+  min-width: 30px;
+  border-radius: 980px;
+  border: solid 1px rgb(0, 119, 237);
+  transition: 0.25s ease-in-out;
+  opacity: 0.8;
+  z-index: 0;
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0071e3;
+}
+.btn-buy-airpods,
+.btn-buy-visionPro {
+  padding: 8px 18px;
+  color: #0071e3;
+  background-color: transparent;
+  margin-left: 13px;
+}
+
+.btn-learn-more-airpods:hover,
+.btn-learn-more-visionpro:hover {
+  opacity: 1;
+}
+.btn-buy-airpods:hover,
+.btn-buy-visionPro:hover {
+  background-color: #06c;
+  color: #fff;
+}
+
+.visionPro-link,
+.airpods-pro-link {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.airpods-pro-img-wrap,
+.visionPro-img-wrap {
+  height: 580px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+}
+.airpods-promo-overlay,
+.visionPro-promo-overlay {
+  width: 100%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+}
+
+.airpods-promo-head-wrap,
+.visionPro-promo-img-wrap {
+  margin-top: 53px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.visionPro-promo-overlay {
+  justify-content: end;
+  position: relative;
+}
+.airpods-promo-subhead,
+.visionPro-promo-subhead {
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 4px;
+  color: black;
+}
+
+.airpods-promo-head-wrap,
+.airpods-promo-subhead,
+.visionPro-promo-img-wrap,
+.visionPro-promo-subhead {
+  margin: 0 auto;
+  display: inline-block;
+}
+.btn-wrap-visionpro,
+.btn-wrap-airpods {
+  margin-top: 17px;
+  text-align: center;
+}
+.airpods-promo-head-wrap h2,
+.airpods-promo-subhead p {
+  color: #fff;
+}
+
+/* section f  Airpods Pro and Vision Pro  css ends */
+
+/* section g apple card and TradeIn  css starts */
+.card-img-wrap {
+  background-image: url(../image/home/tile__cauwwcyyn9hy_large.jpg);
+}
+.tradein-img-wrap {
+  background-image: url(../image/home/promo_iphone_tradein__bugw15ka691e_large.jpg);
+}
+
+.btn-learn-more-card,
+.btn-apply-card,
+.btn-tradein {
+  min-width: 30px;
+  border-radius: 980px;
+  border: solid 1px rgb(0, 119, 237);
+  transition: 0.25s ease-in-out;
+  opacity: 0.8;
+  z-index: 0;
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0071e3;
+}
+.btn-apply-card {
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #0071e3;
+  background-color: transparent;
+  margin-left: 13px;
+}
+.btn-apply-card:hover {
+  background-color: #06c;
+  color: #fff;
+}
+.btn-learn-more-card:hover,
+.btn-tradein:hover {
+  opacity: 1;
+}
+.apple-card-link,
+.tradein-promo-link {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.apple-card-link {
+  color: #fff;
+}
+.tradein-promo-link {
+  color: #fff;
+}
+
+.card-img-wrap,
+.tradein-img-wrap {
+  height: 580px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.card-promo-overlay,
+.tradein-promo-overlay {
+  width: 100%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-promo-img,
+.card-promo-subhead,
+.tradein-promo-img,
+.tradein-promo-subhead {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.btn-wrap-tradein,
+.btn-wrap-card {
+  margin-top: 17px;
+  text-align: center;
+}
+
+.card-promo-subhead,
+.tradein-promo-subhead {
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 4px;
+  color: black;
+}
+.btn-apply-card,
+.btn-learn-more-card,
+.btn-learn-more-tradein {
+  cursor: pointer;
+}
+.tradein-promo-subhead {
+  max-width: 315px;
+  margin-top: 10px;
+}
+.card-promo-subhead {
+  max-width: 290px;
+  margin-top: 10px;
+}
+.card-promo-img,
+.tradein-promo-img {
+  margin-top: 58px;
+  max-width: 430px;
+}
+/* section g apple card and TradeIn  css ends */
+
+/* section h apple TV  slider  css starts  */
+/* section h  apple TV  slider  css ends */
+/* section i apple  TV shows slider css  starts*/
+/* section i apple  TV shows slider css ends */
